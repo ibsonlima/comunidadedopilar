@@ -6,21 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ibsonlima/comunidadedopilar.git"
-  },
+  "repository": "git+https://github.com/ibsonlima/comunidadedopilar.git",
   "author": "EvanilsonSantana",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ibsonlima/comunidadedopilar/issues"
   },
   "homepage": "https://github.com/ibsonlima/comunidadedopilar#readme",
-  "description": "",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "mongodb": "^3.6.6",
-    "mongoose": "^5.12.10"
-  }
+    "mongoose": "^5.12.13"
+  },
+  "keywords": [],
+  "description": ""
 }
